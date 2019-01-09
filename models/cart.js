@@ -14,6 +14,7 @@ module.exports = class Cart {
       let cart = { products: [], totalPrice: 0 };
       if (!err) {
         cart = JSON.parse(fileContent);
+        console.log('cart contents: ', { ...cart });
       }
       // Analyze the cart => Find existing product
       const existingProductIndex = cart.products.findIndex(
@@ -21,7 +22,8 @@ module.exports = class Cart {
       );
       const existingProduct = cart.products[existingProductIndex];
       let updatedProduct;
-      // Add new product/ increase quantity
+      
+      // Add new product/increase quantity
       if (existingProduct) {
         updatedProduct = { ...existingProduct };
         updatedProduct.qty = updatedProduct.qty + 1;
@@ -43,10 +45,10 @@ module.exports = class Cart {
       if (err) {
         return;
       }
-      const updatedCart = { ...JSON.parse(fileContent) };
+      const updatedCart = { ...JSON.parse(fileContent) }; //put updated cart into a new object
       const product = updatedCart.products.find(prod => prod.id === id);
       if (!product) {
-          return;
+          return; //if no products then just return
       }
       const productQty = product.qty;
       updatedCart.products = updatedCart.products.filter(
@@ -61,6 +63,7 @@ module.exports = class Cart {
     });
   }
 
+  //get entire cart
   static getCart(cb) {
     fs.readFile(p, (err, fileContent) => {
       const cart = JSON.parse(fileContent);
