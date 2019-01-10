@@ -1,6 +1,7 @@
-# Node.js Tutorial Shopping Cart
+# Node.js & mySQL Tutorial Shopping Cart
 
-Code to learn to learn Node.js. This is part of a Udemy Node.js course. 
+Code to learn to learn Node.js. This is part of a Udemy Node.js course.
+Code modified considerable to work with [MySQL Workbench database](https://dev.mysql.com/downloads/file/?id=480823)  v8.0.13.0.msi. 
 
 This project uses [Node.js](https://nodejs.org) version 10.15.0 LTS and [Express](http://expressjs.com/) version 4.16.4.
 
