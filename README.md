@@ -5,6 +5,8 @@ Code modified considerable to work with [MySQL Workbench database](https://dev.m
 
 This project uses [Node.js](https://nodejs.org) version 10.15.0 LTS and [Express](http://expressjs.com/) version 4.16.4.
 
+This project uses [Sequelize](http://docs.sequelizejs.com) version 4.42.0. This adds promise-based Node.js Object Relational Mapping to MySQL. Features schema definition, schema synchronization/dropping, 1:1, 1:M & N:M Associations, through models, promises, hooks/callbacks/lifecycle events, prefetching/association including transactions, migrations and CLI (sequelize-cli).
+
 ## Notes
 
 Link to Udemy Course [NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)](https://www.udemy.com/nodejs-the-complete-guide/).<br>
