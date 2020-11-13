@@ -1,11 +1,11 @@
-# Node.js, mongoDB Shopping Cart
+# :zap: Node.js, mongoDB Shopping Cart
 
 * Code to learn to learn Node.js. This is part of a Udemy Node.js course.
 Code modified considerably to work with [MySQL Workbench database](https://dev.mysql.com/downloads/file/?id=480823)  v8.0.13.0.msi.
 
 **Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -16,46 +16,41 @@ Code modified considerably to work with [MySQL Workbench database](https://dev.m
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Uses Embedded Javascript Templating ejs to create HTML markup with plain javascript.
 
-## Screenshots
+## :camera: Screenshots
 
 ![screenprint](./images/.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Node.js v10.15.0 LTS](https://nodejs.org)
+* [Node.js v10](https://nodejs.org)
+* [Express v4](https://www.npmjs.com/package/express)
+* [Sequelize v4](http://docs.sequelizejs.com) - adds promise-based Node.js Object Relational Mapping to MySQL. Features schema definition, schema synchronization/dropping, 1:1, 1:M & N:M Associations, through models, promises, hooks/callbacks/lifecycle events, prefetching/association including transactions, migrations and CLI (sequelize-cli).
 
-* [Express v4.16.4](https://www.npmjs.com/package/express)
-
-* [Sequelize v4.42.0](http://docs.sequelizejs.com) - adds promise-based Node.js Object Relational Mapping to MySQL. Features schema definition, schema synchronization/dropping, 1:1, 1:M & N:M Associations, through models, promises, hooks/callbacks/lifecycle events, prefetching/association including transactions, migrations and CLI (sequelize-cli).
-
-## Setup
+## :floppy_disk: Setup
 
 * to run on a dev server: type `nodemon app.js` then navigate to `localhost:3000`
 
-## Code Examples
+## :computer: Code Examples
 
 * tba
 
-## Features
+## :cool: Features
 
 * tba
 
-## App Status
+## :clipboard: Status & To-Do
 
-* tba
-
-## To-do list
-
-1. tba
+* Status: tba
+* To-Do: tba
 
 ## Inspiration
 
 * [NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)](https://www.udemy.com/nodejs-the-complete-guide/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) * you are welcome to [send me a message](https://andrewbateman.org/contact)
